@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gerenciamento de tarifas</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+	<div class="container mt-3">
+		<h2>Gerenciamento de tarifas vale-transport</h2>
+
+		<p class="warning">
+			Todas as tarifas cadastradas no sistema tem a validade de seis meses, então se não for possível cadastrar um novo valor, isso significa que este valor já está cadastrado, tente um novo valor.
+		</p>
+
+		<div class="form">
+			<form method="POST">
+				<div class="form-group">
+					<select class="form-control select" id="operator"aria-describedby="operatorHelp">
+						<option value="" disabled selected>Selecione uma operadora</option>
+						<option id="op_1" value="Operadora 1">Operadora 1</option>
+						<option id="op_2" value="Operadora 2">Operadora 2</option>
+						<option id="op_3" value="Operadora 3">Operadora 3</option>
+					</select>
+					<small id="operatorHelp" class="form-text text-muted">Selecione uma operadora de vale-transporte.</small>
+				</div>
+
+				<div class="form-group">
+					<label class="sr-only" for="fare">Digite o valor da tarifa</label>
+					<div class="input-group mb-2 mr-sm-2">
+						<div class="input-group-prepend">
+							<div class="input-group-text">R$</div>
+						</div>
+						<input type="number" class="form-control p-4" id="fare" aria-describedby="fareHelp" placeholder="Digite o valor da tarifa Ex: 9.99" />
+					</div>
+					<small id="fareHelp" class="form-text text-muted">Digite o nome de sua operadora de vale-transporte com ponto entre os valores.</small>
+				</div>
+				<button id="btn" type="submit" class="btn btn-success form-control p-4">Cadastrar Tarifa</button>
+			</form>
+		</div>
+
+		<div id="demo"></div>
+	</div>
+
+	<script src="assets/js/main.js"></script>
+	
+</body>
+</html>
