@@ -14,4 +14,4 @@
 
 ![Screenshot](img-readme.png)
 
-> Criado por Marcelo A.
+> Criado por Marcelo A. <a href="mailto:contato@m18web.com.br">Email</a>
