@@ -4,9 +4,9 @@
 
 ## Linguagens
 
--[x] Marcação HMTL
--[x] Estilos CSS
--[X] JavaScript
+[x] Marcação HMTL
+[x] Estilos CSS
+[X] JavaScript
 
 [DEMO](https://cecel.netlify.app/)
 [SITE-PESSOAL](https://m18web.com.br)
