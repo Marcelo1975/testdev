@@ -3,8 +3,6 @@
 > Sistema simples de gerenciamento tarifário de vale-transport
 
 <p>
-## Linguagens
-
 [x] Marcação HMTL<br/>
 [x] Estilos CSS<br/>
 [X] JavaScript<br/>
